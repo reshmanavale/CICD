@@ -1,2 +1,27 @@
-"This is my first CICD project"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CI/CD Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CI/CD Pipeline Demo number 1</h1>
+    <h1>CI/CD Pipeline Demo number 2</h1>
+    <h1>CI/CD Pipeline Demo number 3</h1>
+    <p>This page is automatically deployed using our custom CI/CD pipeline.</p>
+    <p>Last updated: <span id="timestamp"></span></p>
+    
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
 
